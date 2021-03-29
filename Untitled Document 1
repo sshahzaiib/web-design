@@ -1,0 +1,13 @@
+Topic: Styling in HTML
+
+Language which is used to add styles to HTML tags is CSS. 
+CSS mean Cascading Style Sheet.
+
+Every tag has its own properties/attributes.
+For example: <img src="image.png">
+Here img is the tag name and src is the property/attribute. The text after equal sign (=) is the value of src attribute.
+
+The style attribute can be applied on almost all of the tags.
+
+Colon :
+Semi-colon ;

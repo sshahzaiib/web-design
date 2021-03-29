@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* .header {
+  height: 100vh;
+  background-image: url(stars.jpg);
+  background-size: cover;
+} */
+
+.topnav {
+  background-color: gray;
+  overflow: hidden;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  float: left;
+  padding: 5px;
+}
+
+a {
+  /* float: left; */
+  display: block;
+  color: black;
+  text-decoration: none;
+  padding: 16px;
+  font-size: 18px;
+  border-bottom: 5px solid transparent;
+}
+
+a:hover {
+  /* border-bottom: 5px solid black; */
+  background-color: rgba(128, 128, 128, 0.144);
+}
+
+.search {
+  float: right;
+  margin-right: 10px;
+  margin-top: 12px;
+
+  padding: 6px 10px;
+  border-radius: 8px;
+}
+
+.heading-container {
+  /* height: 90vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+
+}
+
+.heading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+}
+
+section {
+  display: flex;
+}
+
+.sidebar {
+  /* flex: 0.5; */
+  width: 15%;
+  padding: 10px;
+  background-color: rgba(128, 128, 128, 0.514);
+  height: 92vh;
+
+  overflow-y: show;
+}
+
+.content {
+  /* flex: 3.5; */
+  width: 85%;
+  padding: 10px;
+}
+
+footer {
+  padding: 10px;
+  background-color: gray;
+  text-align: center;
+  color: white;
+}

@@ -1,0 +1,10 @@
+Border: 
+1: width of Border
+2: style/type of border
+3: Color
+
+Tag selectors in CSS
+There are 3 types of selectors in CSS.
+1: by tag name
+2: by class
+3: by Id
